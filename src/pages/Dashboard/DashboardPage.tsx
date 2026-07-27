@@ -80,20 +80,20 @@ function DashboardPage() {
       <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
         <StatCard
           title="Current Savings"
-          value={`$${userProfile.savedAmount.toLocaleString()}`}
+          value={`₹${userProfile.savedAmount.toLocaleString('en-IN')}`}
           detail="Up 18% from last month"
           icon={<PiggyBank className="h-5 w-5" />}
         />
         <StatCard
           title="Budget"
-          value={`$${userProfile.budget.toLocaleString()}`}
+          value={`₹${userProfile.budget.toLocaleString('en-IN')}`}
           detail="Healthy balance"
           icon={<Wallet2 className="h-5 w-5" />}
           accent="slate"
         />
         <StatCard
           title="Spent"
-          value={`$${userProfile.spent.toLocaleString()}`}
+          value={`₹${userProfile.spent.toLocaleString('en-IN')}`}
           detail="Only 47% of plan"
           icon={<TrendingUp className="h-5 w-5" />}
           accent="slate"
@@ -132,7 +132,7 @@ function DashboardPage() {
         <div className="space-y-4">
           <OverviewCard
             title="Budget left"
-            value={`$${userProfile.budgetLeft.toLocaleString()}`}
+            value={`₹${userProfile.budgetLeft.toLocaleString('en-IN')}`}
             detail="Ready for your next milestone"
             icon={<Wallet2 className="h-5 w-5" />}
           />

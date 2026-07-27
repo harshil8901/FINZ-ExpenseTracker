@@ -17,19 +17,19 @@ export const quickActions = [
 ]
 
 export const transactions = [
-  { title: 'Salary Credit', category: 'Income', amount: '+$4,200', time: '09:30', positive: true },
-  { title: 'Groceries', category: 'Essentials', amount: '-$84', time: '11:20', positive: false },
+  { title: 'Salary Credit', category: 'Income', amount: '+₹4,200', time: '09:30', positive: true },
+  { title: 'Groceries', category: 'Essentials', amount: '-₹84', time: '11:20', positive: false },
   {
     title: 'Cloud Subscription',
     category: 'Bills',
-    amount: '-$24',
+    amount: '-₹24',
     time: '13:10',
     positive: false,
   },
   {
     title: 'Investment Top-up',
     category: 'Wealth',
-    amount: '-$320',
+    amount: '-₹320',
     time: '16:45',
     positive: false,
   },
@@ -38,7 +38,7 @@ export const transactions = [
 export const tips = [
   {
     title: 'Keep momentum',
-    description: 'You are only $1,280 away from your monthly savings target.',
+    description: 'You are only ₹1,280 away from your monthly savings target.',
   },
   {
     title: 'Smart move',
